@@ -172,7 +172,8 @@ body a {
 /* ABOUT ME */
 #aboutmeDiv {
 	margin-top: 20px;
-	height: 620px;
+	height: 650px;
+
 
 }
 #aboutP {
@@ -199,6 +200,10 @@ body a {
 	text-align: justify;
 	font-size: 18px;
 	line-height: 30px;
+}
+#resume {
+	width:153px;
+	margin:0 auto;
 }
 #contact {
 	height:75px;
