@@ -173,6 +173,7 @@ body a {
 #aboutmeDiv {
 	margin-top: 20px;
 	height: 650px;
+	transition: .3s;
 
 
 }
@@ -231,6 +232,39 @@ body a {
 }
 .pipe {
 	color:#c5c6c7;
-	font-size: 25px;
-	
+	font-size: 25px;	
 }
+
+@media screen and (max-width: 950px) {
+	/*#home {
+		background-color:red;
+	}*/
+	#name {
+		font-size: 50px;
+	}
+	#subprojectsDiv {
+		flex-direction: column;
+		height:1200px;
+		transition: .3s;
+	}
+	.projectsMediaQuery {
+		height:1200px;
+	}
+	.projDiv {
+		width:100%;
+	}
+	#aboutmeDiv {
+		height:800px;
+		transition: .3s;
+	}
+} 
+@media screen and (max-width: 700px) {
+	#aboutmeDiv {
+		height:900px;
+		transition: .3s;
+	}
+	@media screen and (max-width: 575px) {
+	#aboutmeDiv {
+		height:1200px;
+		transition: .3s;
+	}
