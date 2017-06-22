@@ -22,7 +22,7 @@ $("#aboutLink").click(function() {
 
 $("#more").click(function() {
     $('html, body').animate({
-        scrollTop: $("#projectsDiv").offset().top
+        scrollTop: $("#projects").offset().top
     }, 2000, 'easeOutExpo');
 });
 
