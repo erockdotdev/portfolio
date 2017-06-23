@@ -1,5 +1,5 @@
 $( document ).ready(()=>{
-console.log('connected')
+// console.log('connected')
 
 $("#homeLink").click(function() {
     $('html, body').animate({

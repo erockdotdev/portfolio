@@ -239,6 +239,12 @@ body a {
 	/*#home {
 		background-color:red;
 	}*/
+	.nav {
+		height:100px;
+	}
+	.nav div {
+		height:100px;
+	}
 	#name {
 		font-size: 50px;
 	}
