@@ -26,11 +26,25 @@ $("#more").click(function() {
     }, 2000, 'easeOutExpo');
 });
 
-$("#contactLink").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contactLand").offset().top
-    }, 2000, 'easeOutExpo');
-});
+/* Media Query Contact link */
+if ($(window).width() > 700) {
+    $("#contactLink").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#contactLand").offset().top
+        }, 2000, 'easeOutExpo');
+    });
+
+} else {
+     $("#contactLink").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#mediaContact").offset().top
+        }, 2000, 'easeOutExpo');
+    });
+
+};//end media query
+
+
+
 
 
 
